@@ -1,0 +1,14 @@
+/target
+.idea
+node_modules
+dist
+test-ledger
+js/wormhole-sdk-playground/yarn-error.log
+
+
+# Added by cargo
+#
+# already existing elements were commented out
+
+#/target
+

@@ -1,0 +1,22 @@
+{
+  "name": "rosen-bridge-web3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:integration": "node -r esbuild-register ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bs58": "^4.0.1",
+    "esbuild": "^0.14.9",
+    "esbuild-register": "^3.3.1"
+  },
+  "dependencies": {
+    "@certusone/wormhole-sdk": "^0.1.6",
+    "@solana/buffer-layout": "^4.0.0",
+    "@solana/web3.js": "^1.31.0",
+    "borsh": "^0.7.0",
+    "bs58": "^4.0.1",
+    "loglevel": "^1.8.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "poc-wormhole-integration",
+  "author": "Rungsikorn Rungsikavarnich <rungsikorn@me.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["js/*"],
+  "scripts": {
+    "prepare": "yarn workspace rosen-bridge-web3 install && yarn workspace wormhole-sdk-playground install"
+  }
+}
