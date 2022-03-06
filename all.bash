@@ -6,7 +6,7 @@ build() {
 }
 
 deploy() {
-  solana program deploy /Users/rungsikornrungsikavarnich/Repositories/poc-wormhole-integration/target/deploy/bpf_program_template.so -k ~/.config/solana/dev.json
+  solana program deploy /Users/rungsikornrungsikavarnich/Repositories/poc-wormhole-integration/target/deploy/bpf_program_template.so -k ~/.config/solana/my-dev.json
 }
 
 generate() {

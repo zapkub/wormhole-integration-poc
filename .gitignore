@@ -4,6 +4,7 @@ node_modules
 dist
 test-ledger
 js/wormhole-sdk-playground/yarn-error.log
+.DS_Store
 
 
 # Added by cargo
